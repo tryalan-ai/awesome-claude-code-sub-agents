@@ -207,6 +207,7 @@ Domain experts for specific industries with specialized knowledge and compliance
 
 - **[FinTech Security Expert](./industries/fintech-security-expert.md)** - Financial services security, PCI DSS compliance, KYC/AML, secure payment processing, and regulatory standards
 - **[Healthcare HIPAA Expert](./industries/healthcare-hipaa-expert.md)** - Healthcare technology, HIPAA compliance, medical data security, HL7 FHIR, and patient privacy
+- **[Healthcare Administration Agents](https://github.com/ajhcs/healthcare-agents)** - 51 specialized healthcare administration AI agents with MHA-level expertise across 10 divisions including revenue cycle, compliance, quality, clinical operations, payer relations, and health IT
 
 ## ✨ What Makes These Agents Different
 
