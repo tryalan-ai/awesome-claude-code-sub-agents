@@ -330,5 +330,6 @@ If you find this collection helpful, please consider:
 - 📢 Sharing with other developers
 
 ---
+- [SkillFlow](https://skillflow.builders) - Open marketplace for AI agent skills and MCP servers. Discover 500+ skills with trust metrics, categories, and ratings.
 
 **Built with ❤️ for the developer community**
