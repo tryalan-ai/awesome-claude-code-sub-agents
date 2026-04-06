@@ -193,6 +193,7 @@ Specialized agents for Large Language Model engineering, operations, and product
 - **[RAG Architecture Expert](./llm-engineering/rag-architecture-expert.md)** - Retrieval-Augmented Generation systems, vector databases, document processing, and hybrid search strategies
 - **[LLMOps Engineer](./llm-engineering/llmops-engineer.md)** - Production LLM deployment, model serving, scaling strategies, cost optimization, and operational monitoring
 - **[Multi-Agent Systems Architect](./llm-engineering/multi-agent-systems-architect.md)** - Complex agent orchestration, coordination patterns, collaborative workflows, and distributed AI systems
+- **[Production Multi-Agent Orchestrator](./llm-engineering/production-multi-agent-orchestrator.md)** - Battle-tested orchestrator from 57-agent system: mandatory blueprints, anti-duplication, evidence-based quality gates, 30-min heartbeat
 - **[LLM Fine-tuning Expert](./llm-engineering/llm-finetuning-expert.md)** - Parameter-efficient fine-tuning (PEFT), LoRA/QLoRA techniques, dataset preparation, and training optimization
 - **[LLM Observability Specialist](./llm-engineering/llm-observability-specialist.md)** - Comprehensive monitoring, performance tracking, cost analysis, quality assessment, and system health for LLM applications
 
