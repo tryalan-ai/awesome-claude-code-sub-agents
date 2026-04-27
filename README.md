@@ -83,6 +83,7 @@ awesome-claude-code-agents/
 │   ├── aws-cloud-architect.md
 │   ├── docker-specialist.md
 │   ├── kubernetes-expert.md
+│   ├── kubestellar-multi-cluster-ops.md
 │   └── terraform-infrastructure-expert.md
 ├── industries/                      # Industry domain experts
 │   ├── fintech-security-expert.md
@@ -183,6 +184,7 @@ Infrastructure architecture specialists focusing on deployment strategies, scala
 
 - **[Docker Specialist](./devops/docker-specialist.md)** - Containerization strategy, optimization patterns, security considerations, and production deployment decisions
 - **[Kubernetes Expert](./devops/kubernetes-expert.md)** - Orchestration architecture, deployment strategies, scaling patterns, and operational excellence
+- **[KubeStellar Multi-Cluster Ops](./devops/kubestellar-multi-cluster-ops.md)** - Multi-cluster Kubernetes operations via kc-agent MCP server, cross-cluster workload management, and fleet-wide monitoring
 - **[AWS Cloud Architect](./devops/aws-cloud-architect.md)** - Service selection framework, architectural patterns, cost optimization, and Well-Architected principles
 - **[Terraform Infrastructure Expert](./devops/terraform-infrastructure-expert.md)** - Infrastructure as Code patterns, state management strategies, and multi-cloud architecture
 
