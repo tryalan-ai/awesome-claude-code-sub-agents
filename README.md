@@ -6,6 +6,7 @@ A comprehensive collection of specialized Claude Code agents for software develo
 
 ### Setting Up Claude Code Agents
 
+- [Septim Agents Pack](https://septimlabs.com/agents) - 10 named Claude Code sub-agents (Atlas, Luca, Canon, Ember, Tally, Nova, Ward, Mira, Juno, Pip) for the full exec layer. Pip is open-sourced under MIT at github.com/septimlabs-code/septim-agents-pack-sample.
 1. **Install Claude Code**: Follow the [official installation guide](https://docs.anthropic.com/en/docs/claude-code/installation)
 
 2. **Clone this repository**:
