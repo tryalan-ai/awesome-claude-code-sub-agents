@@ -71,6 +71,7 @@ awesome-claude-code-agents/
 ├── data-science/                     # Data science and analytics
 │   └── python-data-scientist.md
 ├── llm-engineering/                 # LLM engineering and operations
+│   ├── ai-workflow-architect.md
 │   ├── prompt-engineering-specialist.md
 │   ├── rag-architecture-expert.md
 │   ├── llmops-engineer.md
@@ -189,6 +190,7 @@ Infrastructure architecture specialists focusing on deployment strategies, scala
 ### 🧠 LLM Engineering
 Specialized agents for Large Language Model engineering, operations, and production systems with focus on modern LLM application development.
 
+- **[AI Workflow Architect](./llm-engineering/ai-workflow-architect.md)** - Production AI workflow design, agentic handoff, system-of-record writes, evaluation metrics, and safe rollout plans
 - **[Prompt Engineering Specialist](./llm-engineering/prompt-engineering-specialist.md)** - Advanced prompt design, optimization techniques, few-shot learning, chain-of-thought reasoning, and evaluation frameworks
 - **[RAG Architecture Expert](./llm-engineering/rag-architecture-expert.md)** - Retrieval-Augmented Generation systems, vector databases, document processing, and hybrid search strategies
 - **[LLMOps Engineer](./llm-engineering/llmops-engineer.md)** - Production LLM deployment, model serving, scaling strategies, cost optimization, and operational monitoring
