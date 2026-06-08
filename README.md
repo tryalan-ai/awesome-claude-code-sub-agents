@@ -196,6 +196,7 @@ Specialized agents for Large Language Model engineering, operations, and product
 - **[LLM Fine-tuning Expert](./llm-engineering/llm-finetuning-expert.md)** - Parameter-efficient fine-tuning (PEFT), LoRA/QLoRA techniques, dataset preparation, and training optimization
 - **[LLM Observability Specialist](./llm-engineering/llm-observability-specialist.md)** - Comprehensive monitoring, performance tracking, cost analysis, quality assessment, and system health for LLM applications
 
+- [TWZRD Agent Intel](https://intel.twzrd.xyz) - MCP server for trust scoring AI agents on Solana. Verify wallet identity and autonomy scores before authorizing x402 micropayments. Free: `{"mcpServers":{"twzrd-agent-intel":{"url":"https://intel.twzrd.xyz/mcp"}}}`
 ### 🤖 Data Science & AI
 Data science and machine learning specialists for analytics, modeling, and production ML systems.
 
