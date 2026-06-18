@@ -142,6 +142,7 @@ Agents focused on development workflows, code quality, and team collaboration wi
 - **[Git Workflow Expert](./development-workflows/git-workflow-expert.md)** - Advanced Git strategies, branching models (Git Flow, GitHub Flow), merge conflict resolution, and hooks automation
 - **[CI/CD Pipeline Architect](./development-workflows/cicd-pipeline-architect.md)** - GitHub Actions, GitLab CI, Jenkins pipelines, testing automation, and deployment strategies
 - **[Project Setup Wizard](./development-workflows/project-setup-wizard.md)** - Multi-language project scaffolding, tooling configuration, and development environment setup
+- **[iOS App Factory](./development-workflows/ios-app-factory.md)** - Website, PWA, dashboard, and content-surface conversion planning for App Store-ready SwiftUI or Capacitor apps
 - **[Code Quality Guardian](./development-workflows/code-quality-guardian.md)** - Linting, formatting, pre-commit hooks, quality gates, and technical debt management
 - **[Documentation Specialist](./development-workflows/documentation-specialist.md)** - README optimization, API docs, architectural decision records, and documentation automation
 - **[Dependency Manager](./development-workflows/dependency-manager.md)** - Package management, security auditing, version updates, and license compliance
