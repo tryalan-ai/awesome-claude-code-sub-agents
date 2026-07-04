@@ -328,6 +328,7 @@ If you find this collection helpful, please consider:
 - 💡 Suggesting new agents or improvements
 - 🤝 Contributing to the project
 - 📢 Sharing with other developers
+- **[Context Kit](https://github.com/JDDavenport/context-kit)** — Personal Context Artifacts: 4 Markdown templates + 5 Claude Code skills for giving AI agents deep personal context. MIT, one-command install.
 
 ---
 
