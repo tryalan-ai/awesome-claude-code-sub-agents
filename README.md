@@ -159,6 +159,7 @@ Agents focused on development workflows, code quality, and team collaboration wi
 #### Release & Deployment
 - **[Release Manager](./development-workflows/release-manager.md)** - Release planning, changelog generation, version management, and rollback strategies
 - **[Environment Manager](./development-workflows/environment-manager.md)** - Development, staging, production environments, and infrastructure configuration management
+- **[Automation Health Auditor](./development-workflows/automation-health-auditor.md)** - Live-artifact verification of scheduled jobs and autonomous pipelines, silent-failure detection, and facts-only health reporting
 
 ### 🏛️ Architecture
 System architecture specialists focusing on pattern selection, design decisions, and scalability strategies.
