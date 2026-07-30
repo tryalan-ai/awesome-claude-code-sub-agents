@@ -25,11 +25,11 @@ Thank you for your interest in contributing to this collection! We welcome contr
 
 ```bash
 # Fork the repository on GitHub, then clone your fork
-git clone https://github.com/your-username/awesome-claude-code-agents.git
-cd awesome-claude-code-agents
+git clone https://github.com/your-username/awesome-claude-code-sub-agents.git
+cd awesome-claude-code-sub-agents
 
 # Add the upstream remote
-git remote add upstream https://github.com/original-repo/awesome-claude-code-agents.git
+git remote add upstream https://github.com/supatest-ai/awesome-claude-code-sub-agents.git
 ```
 
 ### 2. Create a Branch
@@ -88,8 +88,8 @@ All agents must meet these minimum requirements:
 ### Agent Structure
 
 Use our templates as starting points:
-- **[Basic Agent Template](./agents/templates/basic-agent-template.md)** - For simpler, focused agents
-- **[Advanced Agent Template](./agents/templates/advanced-agent-template.md)** - For comprehensive, expert-level agents
+- **[Basic Agent Template](./templates/basic-agent-template.md)** - For simpler, focused agents
+- **[Advanced Agent Template](./templates/advanced-agent-template.md)** - For comprehensive, expert-level agents
 
 ### YAML Frontmatter Guidelines
 
@@ -188,7 +188,7 @@ function getUser(id) {
 Place your agent in the appropriate category:
 
 ```
-awesome-claude-code-agents/
+awesome-claude-code-sub-agents/
 ├── languages/               # Programming languages (Python, JavaScript, etc.)
 ├── frameworks/              # Frameworks and libraries (React, Django, etc.)
 ├── development-workflows/   # Development workflows (testing, deployment, etc.)
@@ -351,8 +351,8 @@ Reviewers will check for:
 
 ```bash
 # Clone the repository
-git clone https://github.com/your-username/awesome-claude-code-agents.git
-cd awesome-claude-code-agents
+git clone https://github.com/your-username/awesome-claude-code-sub-agents.git
+cd awesome-claude-code-sub-agents
 
 # Validate YAML frontmatter (optional)
 npm install -g yaml-lint
@@ -363,9 +363,14 @@ npm install -g markdownlint-cli
 markdownlint */*.md
 
 # Test Claude Code integration (if you have Claude Code installed)
-cp */*.md ~/.config/claude-code/agents/
-claude-code agents list
+mkdir -p ~/.claude/agents
+find . -mindepth 2 -maxdepth 2 -type f -name '*.md' \
+  ! -path './docs/*' ! -path './templates/*' \
+  -exec cp {} ~/.claude/agents/ \;
+claude
 ```
+
+Run `/agents` in Claude Code to confirm the agents are available.
 
 ### Testing Your Agent
 
@@ -389,7 +394,7 @@ Before submitting:
 
 - **[Agent Development Guide](./docs/agent-development-guide.md)** - Detailed development guide
 - **[Best Practices](./docs/best-practices.md)** - Coding and documentation standards
-- **[Claude Code Documentation](https://docs.anthropic.com/en/docs/claude-code)** - Official Claude Code docs
+- **[Claude Code Documentation](https://code.claude.com/docs/en/sub-agents)** - Official Claude Code sub-agent docs
 - **[Examples](./docs/examples/)** - Real-world usage examples
 
 ## 🏆 Recognition
