@@ -174,7 +174,7 @@ migration strategies, data integrity constraints.
 ## Further Reading and Resources
 
 ### Official Documentation
-- [Anthropic Claude Code Sub-Agents](https://docs.anthropic.com/en/docs/claude-code/sub-agents) - Official documentation and configuration guide
+- [Anthropic Claude Code Sub-Agents](https://code.claude.com/docs/en/sub-agents) - Official documentation and configuration guide
 - [Claude Code Best Practices](https://www.anthropic.com/engineering/claude-code-best-practices) - Anthropic's recommended workflows and patterns
 - [How Anthropic Teams Use Claude Code](https://www.anthropic.com/news/how-anthropic-teams-use-claude-code) - Real-world usage examples from Anthropic
 

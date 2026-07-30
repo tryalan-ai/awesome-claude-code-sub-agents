@@ -6,38 +6,38 @@ A comprehensive collection of specialized Claude Code agents for software develo
 
 ### Setting Up Claude Code Agents
 
-1. **Install Claude Code**: Follow the [official installation guide](https://docs.anthropic.com/en/docs/claude-code/installation)
+1. **Install Claude Code**: Follow the [official installation guide](https://code.claude.com/docs/en/setup)
 
 2. **Clone this repository**:
    ```bash
-   git clone https://github.com/supatest-ai/awesome-claude-code-agents.git
-   cd awesome-claude-code-agents
+   git clone https://github.com/supatest-ai/awesome-claude-code-sub-agents.git
+   cd awesome-claude-code-sub-agents
    ```
 
 3. **Copy agent files**: Copy the agent `.md` files to your Claude Code agents directory:
    ```bash
-   cp */*.md ~/.config/claude-code/agents/
+   mkdir -p ~/.claude/agents
+   find . -mindepth 2 -maxdepth 2 -type f -name '*.md' \
+     ! -path './docs/*' ! -path './templates/*' \
+     -exec cp {} ~/.claude/agents/ \;
    ```
 
-4. **Verify installation**: List available agents:
-   ```bash
-   claude-code agents list
-   ```
+4. **Verify installation**: Start Claude Code and run `/agents`.
 
 ### How to Use Agents
 
 Claude Code agents can be invoked in several ways:
 
 1. **Automatic Invocation**: Agents with `PROACTIVELY` in their description will be automatically invoked based on context
-2. **Manual Invocation**: Use `@agent-name` in your messages to explicitly invoke an agent
+2. **Manual Invocation**: Ask Claude to use an agent by name
 3. **Task-Specific**: Agents will be suggested based on the files you're working with and the tasks you're performing
 
-For more details, see the [Claude Code documentation](https://docs.anthropic.com/en/docs/claude-code).
+For more details, see the [Claude Code sub-agent documentation](https://code.claude.com/docs/en/sub-agents).
 
 ## 📁 Repository Structure
 
 ```
-awesome-claude-code-agents/
+awesome-claude-code-sub-agents/
 ├── README.md                          # This file
 ├── CONTRIBUTING.md                    # Contribution guidelines
 ├── languages/                         # Programming language experts
@@ -302,7 +302,7 @@ We welcome contributions from the community! See our [Contributing Guidelines](.
 
 ## 📖 Additional Resources
 
-- **[Claude Code Documentation](https://docs.anthropic.com/en/docs/claude-code)** - Official Claude Code documentation
+- **[Claude Code Documentation](https://code.claude.com/docs/en/sub-agents)** - Official Claude Code sub-agent documentation
 - **[Agent Development Guide](./docs/agent-development-guide.md)** - Detailed guide for creating custom agents
 - **[Best Practices](./docs/best-practices.md)** - Best practices for agent development
 - **[Examples](./docs/examples/)** - Example use cases and implementations
