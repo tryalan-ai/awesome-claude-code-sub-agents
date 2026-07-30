@@ -69,7 +69,8 @@ awesome-claude-code-sub-agents/
 ├── performance/                      # Performance specialists
 │   └── performance-optimization-specialist.md
 ├── data-science/                     # Data science and analytics
-│   └── python-data-scientist.md
+│   ├── python-data-scientist.md
+│   └── x-social-researcher.md
 ├── llm-engineering/                 # LLM engineering and operations
 │   ├── prompt-engineering-specialist.md
 │   ├── rag-architecture-expert.md
@@ -200,6 +201,7 @@ Specialized agents for Large Language Model engineering, operations, and product
 Data science and machine learning specialists for analytics, modeling, and production ML systems.
 
 - **[Python Data Scientist](./data-science/python-data-scientist.md)** - Data exploration, statistical analysis, feature engineering, and machine learning workflows
+- **[X Social Researcher](./data-science/x-social-researcher.md)** - Read-first public X research with Xquik, traceable evidence, safe pagination, and explicit write approval
 - **[Machine Learning Engineer](./ai-ml/machine-learning-engineer.md)** - MLOps, model deployment, monitoring, drift detection, and production ML infrastructure
 
 ### 🏢 Industries
