@@ -135,6 +135,7 @@ Architecture specialists for popular frameworks focusing on project structure, s
 - **[Django Expert](./frameworks/django-expert.md)** - Django architecture decisions, DRF vs alternatives, async patterns, and production deployment
 - **[Spring Boot Expert](./frameworks/spring-boot-expert.md)** - Spring Boot 3+ architectural choices, reactive programming decisions, and microservices patterns
 
+- **[Ivy Tendril](https://github.com/Ivy-Interactive/Ivy-Tendril)** - Open-source agentic software factory with an amazing UI that handles parallel Git worktrees for you, complete with programmatic verifications and fast review loops
 ### 🔄 Development Workflows
 Agents focused on development workflows, code quality, and team collaboration with comprehensive automation and best practices.
 
